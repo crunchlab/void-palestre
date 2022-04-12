@@ -1,9 +1,9 @@
-import featureToStrutturaMappings from "src/mappings/featureToStrutturaMappings";
+import featureToPalestraMappings from "src/mappings/featureToStrutturaMappings";
 import filtersFieldMappings from "../mappings/filtersFieldMappings";
 
 export const environment = {
     production: true,
-    fieldMappings: featureToStrutturaMappings,
+    fieldMappings: featureToPalestraMappings,
     filtersFieldMappings: filtersFieldMappings,
     mapStyle: './assets/map-styles/roadmap-style.json',
     dataPointColorMap: './assets/map-styles/data-points-colors.json',

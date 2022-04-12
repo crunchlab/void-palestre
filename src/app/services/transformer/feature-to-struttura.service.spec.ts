@@ -2,14 +2,14 @@ import { TestBed } from '@angular/core/testing';
 import { Feature } from 'geojson';
 import { get, pick } from 'lodash';
 import { Struttura } from '../../models/struttura/struttura';
-import { FeatureToStrutturaService } from './feature-to-struttura.service';
+import { FeatureToPalestraService } from './feature-to-struttura.service';
 
 describe('FeatureToStrutturaService', () => {
-    let transformer: FeatureToStrutturaService;
+    let transformer: FeatureToPalestraService;
 
     beforeEach(() => {
         TestBed.configureTestingModule({});
-        transformer = TestBed.inject(FeatureToStrutturaService);
+        transformer = TestBed.inject(FeatureToPalestraService);
     });
 
     it('should be created', () => {

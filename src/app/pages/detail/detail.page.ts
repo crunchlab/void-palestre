@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Struttura } from '../../models/struttura/struttura';
+import { Palestra } from 'src/app/models/struttura/palestra';
 import { StrutturaService } from '../../services/api/struttura.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { StrutturaService } from '../../services/api/struttura.service';
     styleUrls: ['./detail.page.scss'],
 })
 export class DetailPage implements OnInit {
-    struttura: Struttura;
+    palestra: Palestra;
 
     constructor(private strutturaService: StrutturaService, private actRoute: ActivatedRoute) {
 
@@ -17,28 +17,28 @@ export class DetailPage implements OnInit {
 
     ngOnInit() {
         this.actRoute.params.subscribe(params => {
-            this.struttura = this.strutturaService.getDetail(params.id);
-            console.log(this.struttura);
+            this.palestra = this.strutturaService.getDetail(params.id);
+            console.log(this.palestra);
         });
     }
     goToSite() {
-        let site: string = this.struttura.contatti["www"];
-        let url: URL;
-        try {
-            if (site.match(/http[s]?:/)) {
-                url = new URL(site);
-            } else {
-                url = new URL(`http://${site}`);
-            }
-            window.open(url, '_blank');
-        } catch (e) {
-            alert("indirizzo non valido!")
-        }
+        // let site: string = this.palestra.contatti["www"];
+        // let url: URL;
+        // try {
+        //     if (site.match(/http[s]?:/)) {
+        //         url = new URL(site);
+        //     } else {
+        //         url = new URL(`http://${site}`);
+        //     }
+        //     window.open(url, '_blank');
+        // } catch (e) {
+        //     alert("indirizzo non valido!")
+        // }
     }
     writeTo() {
-        window.open(`mailto:${this.struttura.contatti["mail"]}`, '_blank');
+        // window.open(`mailto:${this.palestra.contatti["mail"]}`, '_blank');
     }
     phoneTo() {
-        window.open(`tel:${this.struttura.contatti["telefono"]}`, '_se_blanklf');
+        // window.open(`tel:${this.palestra.contatti["telefono"]}`, '_se_blanklf');
     }
 }

@@ -1,29 +1,29 @@
 import { Injectable } from '@angular/core';
-import { Struttura } from '../../models/struttura/struttura';
 import { find, flatten, get, pick, uniq } from 'lodash';
-import { FeatureToStrutturaService } from '../transformer/feature-to-struttura.service';
+import { FeatureToPalestraService } from '../transformer/feature-to-struttura.service';
 
 import strutture from '../../../assets/data/strutture.json';
 import { AttributeFilter } from '../../interfaces/attributeFilter.interface';
 import { FieldMapping } from '../../interfaces/fieldMapping.interface';
 import { FilterOperator } from '../../enums/filterOperator.enum';
 import { environment } from '../../../environments/environment';
+import { Palestra } from 'src/app/models/struttura/palestra';
 @Injectable({
     providedIn: 'root'
 })
 export class StrutturaService {
-    strutture: Struttura[] = [];
+    palestre: Palestra[] = [];
     mappings: FieldMapping[] = environment.filtersFieldMappings;
 
 
-    constructor(private transformer: FeatureToStrutturaService) {
-        this.strutture = strutture.features.map((f: any) => this.transformer.featureToStruttura(f));
+    constructor(private transformer: FeatureToPalestraService) {
+        this.palestre = strutture.features.map((f: any) => this.transformer.featureToPalestra(f));
     }
 
 
-    public getDetail(id: string | number): Struttura {
-        let struttura: Struttura = find(this.strutture, (s: Struttura) => s.codiceIdentificativo == (id as number)) as Struttura;
-        return struttura;
+    public getDetail(id: string | number): Palestra {
+        let palestra: Palestra = find(this.palestre, (p: Palestra) => p.id == (id as number)) as Palestra;
+        return palestra;
     }
 
     /**
@@ -35,7 +35,7 @@ export class StrutturaService {
         let filters: AttributeFilter[] = []
         filters = this.mappings.map((mapping: FieldMapping) => {
             let filter: AttributeFilter = { property: '', value: '', operator: FilterOperator.in };
-            let values: any = this.strutture.map((s: Struttura) => {
+            let values: any = this.palestre.map((s: Palestra) => {
                 if (Array.isArray(mapping.properties)) {
                     return pick(s, mapping.properties);
                 } else {

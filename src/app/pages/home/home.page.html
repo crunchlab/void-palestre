@@ -22,58 +22,57 @@
                     <ion-icon name="ellipse" color="dark"></ion-icon>
                     <ion-label>{{tipologia}}</ion-label>
                 </ion-chip>
-                <!-- <a [routerLink]="['/','advanced-search']"> -->
-                <ion-chip mode="md" class="filter_chip advanced_search" (click)="openSearchModal()">
+                <!-- <ion-chip mode="md" class="filter_chip advanced_search" (click)="openSearchModal()">
                     <ion-icon class="advanced_seach_icon" name="ellipsis-horizontal-outline"></ion-icon>
-                </ion-chip>
-                <!-- </a> -->
+                </ion-chip> -->
             </div>
         </div>
         <div #mapContainer id="mapContainer">
             <mgl-map #homeMap [attributionControl]="false" [style]="mapStyle" [zoom]="[9]" (mapLoad)="mapLoaded($event)"
                 (zoomEnd)="mapZoomEnd($event)" (mapDragEnd)="onDragEnd($event)" [center]="[12.5510662,45.6331619]">
-                <mgl-geojson-source id="strutture" [data]="struttureGeoJson" promoteId="codiceIdentificativo">
+                <mgl-geojson-source id="palestre" [data]="palestreDigitali" promoteId="id">
                 </mgl-geojson-source>
 
-                <mgl-layer [minzoom]="10" id="strutture-label-layer" type="symbol" source="strutture"
-                    [layout]="struttureLabelLayout" [paint]="labelPaint">
+                <mgl-layer [minzoom]="10" id="palestre-label-layer" type="symbol" source="palestre"
+                    [layout]="palestreLabelLayout" [paint]="labelPaint">
                 </mgl-layer>
 
-                <mgl-layer id="strutture-layer" type="circle" source="strutture" [paint]="struttureCirclePaint">
+                <mgl-layer id="palestre-layer" type="circle" source="palestre" [paint]="palestreCirclePaint">
                 </mgl-layer>
             </mgl-map>
         </div>
-        <swiper #swiperStrutture [slidesPerView]="1.5" [ngClass]="{'visible_slides': strutture.length}"
+        <swiper #swiperPalestre [slidesPerView]="1.5" [ngClass]="{'visible_slides': strutture.length}"
             [noSwiping]="false" [allowTouchMove]="true" [centeredSlides]="true" [spaceBetween]="10" [virtual]="true"
             (slideChange)="onSlideChange($event)">
-            <ng-container *ngFor="let struttura of strutture;">
+            <ng-container *ngFor="let palestra of strutture;">
                 <ng-template class="struttura_slide" swiperSlide *transloco="let t">
                     <ion-grid class="ion-no-margin">
-                        <a [routerLink]="['/','detail',struttura.codiceIdentificativo]">
+                        <!-- no details to be displayed so far -->
+                        <!-- <a [routerLink]="['/','detail',palestra.id]"> -->
                             <ion-row class="ion-no-margin">
                                 <ion-col class="ion-no-margin">
-                                    <h5 class="struttura_slide_titolo">{{struttura.denominazione | titlecase}} </h5>
+                                    <h5 class="struttura_slide_titolo">{{palestra.palestraDigitale | titlecase}} </h5>
                                 </ion-col>
                             </ion-row>
-                        </a>
+                        <!-- </a> -->
+                        <!-- <ion-row class="ion-no-margin">
+                            <ion-col class="ion-no-margin">
+                                <div class="struttura_slide_tipologia">{{palestra.tipologia | titlecase}}</div>
+                            </ion-col>
+                        </ion-row> -->
                         <ion-row class="ion-no-margin">
                             <ion-col class="ion-no-margin">
-                                <div class="struttura_slide_tipologia">{{struttura.tipologia | titlecase}}</div>
+                                <span class="struttura_slide_indirizzo">{{palestra.indirizzo | titlecase}},
+                                    {{palestra.comune | titlecase}}</span>
                             </ion-col>
                         </ion-row>
-                        <ion-row class="ion-no-margin">
-                            <ion-col class="ion-no-margin">
-                                <span class="struttura_slide_indirizzo">{{struttura.indirizzo | titlecase}},
-                                    {{struttura.comune | titlecase}}</span>
-                            </ion-col>
-                        </ion-row>
-                        <ion-row *ngIf="struttura.nuovaClassificazioneLr11" class="ion-no-margin">
+                        <!-- <ion-row *ngIf="palestra.nuovaClassificazioneLr11" class="ion-no-margin">
                             <ion-col class="ion-no-margin">
                                 <span class="struttura_slide_classificazione">{{'rating' |
-                                    transloco:{rating: struttura.nuovaClassificazioneLr11 } |
+                                    transloco:{rating: palestra.nuovaClassificazioneLr11 } |
                                     titlecase}}</span>
                             </ion-col>
-                        </ion-row>
+                        </ion-row> -->
                     </ion-grid>
                 </ng-template>
             </ng-container>
