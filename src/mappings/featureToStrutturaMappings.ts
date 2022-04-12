@@ -1,7 +1,7 @@
 import { FieldMapping } from "src/app/interfaces/fieldMapping.interface";
 
 const featureToPalestraMappings: FieldMapping[] = [
-    { "field": "id", "properties": "caidp", "type": "number" },
+    { "field": "id", "properties": "id", "type": "number" },
     { "field": "cap", "properties": "cap", "type": "number" },
     { "field": "palestraDigitale", "properties": "palestraDigitale", "type": "string" },
     { "field": "comune", "properties": "comune", "type": "string" },

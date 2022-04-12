@@ -223,11 +223,11 @@ export class HomePage implements OnInit {
                 return f1ToCenter - f2ToCenter;
             })
         let filteredFeatures = this.filterService.applyFilters(renderedFeatures, "properties");
-        let filterdIds: number[] = filteredFeatures.map(f => f.codiceIdentificativo);
+        let filterdIds: number[] = filteredFeatures.map(f => f.id);
 
         renderedFeatures.map(f => {
-            let isMatch = filterdIds.includes(f.properties.codiceIdentificativo);
-            this.homeMap.setFeatureState({ source: 'palestre', id: f.properties.codiceIdentificativo }, { "isMatch": isMatch });
+            let isMatch = filterdIds.includes(f.properties.id);
+            this.homeMap.setFeatureState({ source: 'palestre', id: f.properties.id }, { "isMatch": isMatch });
         });
         if (this.homeMap.getZoom() > 10) {
             this.strutture = filteredFeatures
@@ -334,10 +334,12 @@ export class HomePage implements OnInit {
     public onSlideChange(event: any) {
         let index = event.activeIndex;
         let struttura = this.strutture[index];
-        let geojsonPoint = this.palestreDigitali.features.find(f => f.properties.codiceIdentificativo == struttura.id);
-        const coordinates = get(geojsonPoint, 'geometry.coordinates', []).slice();
-        this.setMarker(struttura, coordinates);
-        this.homeMap.panTo(coordinates, { duration: 250 });
+        if (!isNil(struttura)) {
+            let geojsonPoint = this.palestreDigitali.features.find(f => f.properties.id == struttura.id);
+            const coordinates = get(geojsonPoint, 'geometry.coordinates', []).slice();
+            this.setMarker(struttura, coordinates);
+            this.homeMap.panTo(coordinates, { duration: 250 });
+        }
     }
 
     private setMarker(struttura: Palestra, coordinates: any) {
