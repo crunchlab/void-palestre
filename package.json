@@ -1,10 +1,10 @@
 {
     "name": "void-palestre-digitali",
-    "version": "0.0.1",
-    "author": "Ionic Framework",
-    "homepage": "https://ionicframework.com/",
+    "version": "0.0.1-alpha",
+    "author": "VOID Open Data Team",
+    "homepage": "https://vo-id.it/index.php/progetto/open-data/",
     "repository": {
-        "url": "https://github.com/lbrutti/void-palestre",
+        "url": "https://github.com/crunchlab/void-palestre",
         "type": "git"
     },
     "scripts": {
