@@ -1,4 +1,7 @@
 {
+    "palestre": {
+        "DEFAULT": "#f46d43"
+    },
     "tipologia_1": {
         "AFFITTACAMERE": "#d53e4f",
         "AGRITURISMO": "#f46d43",

@@ -1,0 +1,182 @@
+[
+    {
+        "ID": "0",
+        "PALESTRA DIGITALE": "VOID Innovation LAB",
+        "INDIRIZZO": "Via Vittorio Veneto 114",
+        "CAP": "30027",
+        "COMUNE": "San Dona' di Piave",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.63595",
+        "LONGITUDINE": "12.54696"
+    },
+    {
+        "ID": "1",
+        "PALESTRA DIGITALE": "Polo Comunale Ex Latteria",
+        "INDIRIZZO": "Via Trieste 18",
+        "CAP": "30020",
+        "COMUNE": "Annone Veneto",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.790785",
+        "LONGITUDINE": "12.682121"
+    },
+    {
+        "ID": "10",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Via San Giovanni 2",
+        "CAP": "30024",
+        "COMUNE": "Musile di Piave",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.62166",
+        "LONGITUDINE": "12.56255"
+    },
+    {
+        "ID": "11",
+        "PALESTRA DIGITALE": "Polo Comunale Terza Eta' Circolo Due A",
+        "INDIRIZZO": "Via Guaiane 39",
+        "CAP": "30020",
+        "COMUNE": "Noventa di Piave",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.66491",
+        "LONGITUDINE": "12.53664"
+    },
+    {
+        "ID": "12",
+        "PALESTRA DIGITALE": "Polo Comunale Culturale Leonardo da Vinci",
+        "INDIRIZZO": "Piazza Indipendenza 13",
+        "CAP": "30027",
+        "COMUNE": "San Dona' di Piave",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.62932",
+        "LONGITUDINE": "12.56395"
+    },
+    {
+        "ID": "13",
+        "PALESTRA DIGITALE": "Villa Comunale",
+        "INDIRIZZO": "Via Seminario 5",
+        "CAP": "30026",
+        "COMUNE": "Portogruaro",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.7766",
+        "LONGITUDINE": "12.8359"
+    },
+    {
+        "ID": "14",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Piazza Liberta' 47",
+        "CAP": "30026",
+        "COMUNE": "Pramaggiore",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.81358",
+        "LONGITUDINE": "12.73709"
+    },
+    {
+        "ID": "15",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Piazza Aldo Moro 1",
+        "CAP": "30026",
+        "COMUNE": "San Stino di Livenza",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.73025",
+        "LONGITUDINE": "12.6799"
+    },
+    {
+        "ID": "16",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Piazza Liberta' 1",
+        "CAP": "30028",
+        "COMUNE": "San Michele al Tagliamento",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.76367",
+        "LONGITUDINE": "12.9955"
+    },
+    {
+        "ID": "17",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Piazza Indipendenza 1",
+        "CAP": "30020",
+        "COMUNE": "Torre di Mosto",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.69095",
+        "LONGITUDINE": "12.70963"
+    },
+    {
+        "ID": "2",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Piazza Giacomo Matteotti 3",
+        "CAP": "30021",
+        "COMUNE": "Caorle",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.59859",
+        "LONGITUDINE": "12.88597"
+    },
+    {
+        "ID": "3",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Via Roma 140",
+        "CAP": "30023",
+        "COMUNE": "Concordia Sagittaria",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.7546",
+        "LONGITUDINE": "12.84456"
+    },
+    {
+        "ID": "4",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Via Roma 159",
+        "CAP": "30022",
+        "COMUNE": "Ceggia",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.6848",
+        "LONGITUDINE": "12.63675"
+    },
+    {
+        "ID": "5",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Via Guglielmo Marconi 24",
+        "CAP": "30020",
+        "COMUNE": "Cinto Caomaggiore",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.82659",
+        "LONGITUDINE": "12.78804"
+    },
+    {
+        "ID": "6",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Piazza Giuseppe Garibaldi 54",
+        "CAP": "30020",
+        "COMUNE": "Eraclea",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.5761",
+        "LONGITUDINE": "12.67266"
+    },
+    {
+        "ID": "7",
+        "PALESTRA DIGITALE": "Biblioteca Comunale",
+        "INDIRIZZO": "Piazza IV Novembre 5",
+        "CAP": "30020",
+        "COMUNE": "Fossalta di Piave",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.64555",
+        "LONGITUDINE": "12.51282"
+    },
+    {
+        "ID": "8",
+        "PALESTRA DIGITALE": "Polo Comunale Terza Eta' Sandro Pertini",
+        "INDIRIZZO": "Via Anita Garibaldi 27",
+        "CAP": "30016",
+        "COMUNE": "Jesolo",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.5405",
+        "LONGITUDINE": "12.63186"
+    },
+    {
+        "ID": "9",
+        "PALESTRA DIGITALE": "Polo Comunale Ex Scuola Elementare",
+        "INDIRIZZO": "Via Armando Diaz 145 Localita' Losson della Battaglia",
+        "CAP": "30020",
+        "COMUNE": "Meolo",
+        "PROVINCIA": "VENEZIA",
+        "LATITUDINE": "45.63109",
+        "LONGITUDINE": "12.4796"
+    }
+]
