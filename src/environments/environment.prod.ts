@@ -1,5 +1,5 @@
 import filtersFieldMappings from "../mappings/filtersFieldMappings";
-import featureToPalestraMappings from "../mappings/featureToStrutturaMappings";
+import featureToPalestraMappings from "../mappings/featureToPalestraMappings";
 
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
