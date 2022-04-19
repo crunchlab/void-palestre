@@ -13,7 +13,8 @@
     "indirizzo":"Via Vittorio Veneto 114",
     "cap":30027,
     "comune":"San Dona' di Piave",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/san-dona-di-piave/"
     }
   },
   {
@@ -28,7 +29,8 @@
     "indirizzo":"Via Trieste 18",
     "cap":30020,
     "comune":"Annone Veneto",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/annone-veneto/"
     }
   },
   {
@@ -43,7 +45,8 @@
     "indirizzo":"Via San Giovanni 2",
     "cap":30024,
     "comune":"Musile di Piave",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/musile-di-piave/"
     }
   },
   {
@@ -58,7 +61,8 @@
     "indirizzo":"Via Guaiane 39",
     "cap":30020,
     "comune":"Noventa di Piave",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/noventa"
     }
   },
   {
@@ -73,7 +77,8 @@
     "indirizzo":"Piazza Indipendenza 13",
     "cap":30027,
     "comune":"San Dona' di Piave",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www": "https://vo-id.it/index.php/palestre-digitali/san-dona-di-piave/"
     }
   },
   {
@@ -88,7 +93,8 @@
     "indirizzo":"Via Seminario 5",
     "cap":30026,
     "comune":"Portogruaro",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/portogruaro/"
     }
   },
   {
@@ -103,7 +109,8 @@
     "indirizzo":"Piazza Liberta' 47",
     "cap":30026,
     "comune":"Pramaggiore",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/pramaggiore/"
     }
   },
   {
@@ -118,7 +125,8 @@
     "indirizzo":"Piazza Aldo Moro 1",
     "cap":30026,
     "comune":"San Stino di Livenza",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/san-stino-di-livenza/"
     }
   },
   {
@@ -133,7 +141,8 @@
     "indirizzo":"Piazza Liberta' 1",
     "cap":30028,
     "comune":"San Michele al Tagliamento",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/san-michele-al-tagliamento/"
     }
   },
   {
@@ -148,7 +157,8 @@
     "indirizzo":"Piazza Indipendenza 1",
     "cap":30020,
     "comune":"Torre di Mosto",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/torre-di-mosto/"
     }
   },
   {
@@ -163,7 +173,8 @@
     "indirizzo":"Piazza Giacomo Matteotti 3",
     "cap":30021,
     "comune":"Caorle",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/caorle/"
     }
   },
   {
@@ -178,7 +189,8 @@
     "indirizzo":"Via Roma 140",
     "cap":30023,
     "comune":"Concordia Sagittaria",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/concordia-sagittaria/"
     }
   },
   {
@@ -193,7 +205,8 @@
     "indirizzo":"Via Roma 159",
     "cap":30022,
     "comune":"Ceggia",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/ceggia/"
     }
   },
   {
@@ -208,7 +221,8 @@
     "indirizzo":"Via Guglielmo Marconi 24",
     "cap":30020,
     "comune":"Cinto Caomaggiore",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/cinto-caomaggiore/"
     }
   },
   {
@@ -223,7 +237,8 @@
     "indirizzo":"Piazza Giuseppe Garibaldi 54",
     "cap":30020,
     "comune":"Eraclea",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/eraclea/"
     }
   },
   {
@@ -238,7 +253,8 @@
     "indirizzo":"Piazza IV Novembre 5",
     "cap":30020,
     "comune":"Fossalta di Piave",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/fossalta-di-piave/"
     }
   },
   {
@@ -253,7 +269,8 @@
     "indirizzo":"Via Anita Garibaldi 27",
     "cap":30016,
     "comune":"Jesolo",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/jesolo"
     }
   },
   {
@@ -268,7 +285,8 @@
     "indirizzo":"Via Armando Diaz 145 Localita' Losson della Battaglia",
     "cap":30020,
     "comune":"Meolo",
-    "provincia":"VENEZIA"
+    "provincia":"VENEZIA",
+    "www":"https://vo-id.it/index.php/palestre-digitali/meolo"
     }
   }
 ]
