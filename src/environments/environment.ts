@@ -8,7 +8,7 @@ export const environment = {
     production: false,
     fieldMappings: featureToPalestraMappings,
     filtersFieldMappings: filtersFieldMappings,
-    mapStyle: './assets/map-styles/roadmap-style.json',
+    mapStyle: './assets/map-styles/osm-style.json',
     dataPointColorMap: './assets/map-styles/data-points-colors.json',
     version: "0.0.1-alpha"
     // mapStyle: './assets/map-styles/dark-style.json'
