@@ -48,13 +48,13 @@
                 <ng-template class="struttura_slide" swiperSlide *transloco="let t">
                     <ion-grid class="ion-no-margin">
                         <!-- no details to be displayed so far -->
-                        <!-- <a [routerLink]="['/','detail',palestra.id]"> -->
+                        <a [href]="palestra.www" target="_blank">
                             <ion-row class="ion-no-margin">
                                 <ion-col class="ion-no-margin">
                                     <h5 class="struttura_slide_titolo">{{palestra.palestraDigitale | titlecase}} </h5>
                                 </ion-col>
                             </ion-row>
-                        <!-- </a> -->
+                        </a>
                         <!-- <ion-row class="ion-no-margin">
                             <ion-col class="ion-no-margin">
                                 <div class="struttura_slide_tipologia">{{palestra.tipologia | titlecase}}</div>

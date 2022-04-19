@@ -7,6 +7,7 @@ const featureToPalestraMappings: FieldMapping[] = [
     { "field": "comune", "properties": "comune", "type": "string" },
     { "field": "indirizzo", "properties": "indirizzo", "type": "string" },
     { "field": "provincia", "properties": "provincia", "type": "string" },
+    { "field": "www", "properties": "www", "type": "string" },
    
 ];
 

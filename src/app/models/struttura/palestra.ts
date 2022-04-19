@@ -5,4 +5,5 @@ export class Palestra {
     cap: number;
     comune: string;
     provincia: string;
+    www:string;
 }
