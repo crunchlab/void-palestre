@@ -49,11 +49,11 @@ export class HomePage implements OnInit {
         'circle-radius': {
             'base': 1.75,
             'stops': [
-                [0, 0],
-                [6, 1],
-                [8, 2],
-                [11, 4],
-                [12, 5]
+                [0, 1],
+                [6, 2],
+                [8, 4],
+                [11, 8],
+                [12, 10]
             ]
         },
         'circle-color': [
