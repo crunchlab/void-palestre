@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "VOID-palestre",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

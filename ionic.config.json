@@ -1,5 +1,7 @@
 {
-  "name": "VOID-strutture-ricettive",
-  "integrations": {},
+  "name": "VOID-palestre",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
